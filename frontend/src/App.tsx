@@ -87,6 +87,7 @@ const formatDate = (value: string | null | undefined) => {
 };
 
 const dateInputValue = (value: string) => value.slice(0, 10);
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, "");
 
 function App() {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
@@ -105,8 +106,12 @@ function App() {
     setErrorMessage("");
 
     try {
-      const response = await fetch("/api/analysis");
+      const analysisUrl = API_BASE_URL
+        ? `${API_BASE_URL}/analysis`
+        : "/api/analysis";
 
+      const response = await fetch(analysisUrl);
+      
       if (!response.ok) {
         throw new Error(`API request failed (${response.status})`);
       }
