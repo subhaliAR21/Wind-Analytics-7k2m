@@ -198,14 +198,20 @@ When running locally without Docker, the API base URL is `http://127.0.0.1:8000`
 - This is an analytical prototype, not an automated procurement or trading system.
 - The metrics should be reassessed if the decision cutoff or aggregation method changes.
 
+
 ## AI Tool Disclosure
 
-AI tools, including ChatGPT, were used to assist with development, debugging, documentation, and validation workflow. The data handling, assumptions, implementation, validation results, and final submission should be reviewed and understood by the project author.
+AI tools, including ChatGPT, were used to assist with development, debugging, and documentation. The project implementation and results were reviewed by the author.
 
 ## Deployment
 
-- **Live application:** Add the public deployment URL here.
-- **Source code:** Add the public GitHub repository URL here.
 - **Demo video:** Add the unlisted YouTube video URL here.
+- **Live Dashboard:** https://wind-analytics-frontend.vercel.app/
+- **Backend API:** https://wind-analytics-7k2m.vercel.app/
+- **Health Check:** https://wind-analytics-7k2m.vercel.app/health
+- **Analysis Endpoint:** https://wind-analytics-7k2m.vercel.app/analysis
+- **Source Code:** https://github.com/subhaliAR21/Wind-Analytics-7k2m
 
-These links should be added after deployment and final testing.
+The live dashboard displays forecast performance metrics, wind generation data, and visualizations for January 2026.
+
+The backend provides API endpoints for health checks and forecast analysis.
