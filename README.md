@@ -205,7 +205,7 @@ AI tools, including ChatGPT, were used to assist with development, debugging, an
 
 ## Deployment
 
-- **Demo video:** Add the unlisted YouTube video URL here.
+- **Demo video:** https://www.youtube.com/watch?v=RVnp8P1cjKw
 - **Live Dashboard:** https://wind-analytics-frontend.vercel.app/
 - **Backend API:** https://wind-analytics-7k2m.vercel.app/
 - **Health Check:** https://wind-analytics-7k2m.vercel.app/health
